@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="c">
+                <h3>HOME</h3>
+                <div class="box">
+                    <p id="homescore">0</p>
+                </div>
+                <div class="btn-bar">
+                    <button class="btn" onclick="add1h()">+1</button>
+                    <button class="btn" onclick="add2h()">+2</button>
+                    <button class="btn" onclick="add3h()">+3</button>
+                </div>
+            </div>
+            
+            <div class="c">
+                <h3>GUEST</h3>
+                <div class="box">
+                    <p id="guestscore">0</p>
+                </div>
+                <div class="btn-bar">
+                    <button class="btn" onclick="add1g()">+1</button>
+                    <button class="btn" onclick="add2g()">+2</button>
+                    <button class="btn" onclick="add3g()">+3</button>
+                </div>
+            </div>            
+        </div>
+        <button id = "newg" onclick="newg()">New Game</button>
+        <script src="index.js"></script>
+        
+        <div id="d"></div>
+    </body>
+</html>
